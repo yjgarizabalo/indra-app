@@ -1,0 +1,42 @@
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.content-text {
+    display: flex;
+    justify-content: center;
+}
+
+.content-button {
+    display: flex;
+    justify-content: center;
+}
+
+.content-button .button-red {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 20px;
+}
+.content-button .button-blue {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
